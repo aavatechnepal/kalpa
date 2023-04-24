@@ -1,0 +1,35 @@
+
+    <nav>
+        <div class="container main-nav flex">
+            <a href="#" class="logo"><img src="{{data.brandIconUrl}}" alt=""></a>
+            
+
+            <div class="navlinks">
+                <ul class="flex">
+
+                    {{#each data.links}}
+                    
+                    <li><a href="{{this.url}}" class="hover-link">{{this.label}}</a></li>
+                    
+
+                    {{/each}}
+
+                    {{!-- <li><a href="#" class="hover-link">About</a></li>
+                    <li><a href="#" class="hover-link">Why Kalpabrikshya</a></li>
+                    <li><a href="#" class="hover-link">Our Investment</a></li>
+                    <li><a href="#" class="hover-link">Contact Us</a></li> --}}
+
+                </ul>            
+
+            </div>
+
+            <a href="#" class="menu">  <i class="fa-solid fa-bars menubar"></i>  </a>
+             
+        </div>
+        </nav>
+
+        
+
+      
+
+        

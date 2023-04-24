@@ -1,0 +1,171 @@
+@media screen and (max-width: 960px) {
+  .menu {
+    display: block;
+    margin-right: 30px;
+  }
+  .navlinks {
+    display: none;
+  }
+
+  .right-header img {
+    width: 400px;
+  }
+
+  .left-header h2 {
+    font-size: 31px;
+  }
+
+  .aboutbackground {
+    height: 1000px;
+    font-size: 14px;
+  }
+
+  .about-section {
+    margin-top: 3rem;
+  }
+
+  .left-section .updownanimation {
+    left: 49px;
+  }
+
+  .whykalapheading h2 {
+    font-size: 2rem;
+  }
+
+  .whykalapheading h5 {
+    font-size: 15px;
+  }
+
+  .whykalpa .right-section img {
+    width: 90%;
+  }
+
+  .whykalapheading {
+    margin-left: 49px;
+  }
+
+  .whykalapheading p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .header-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutKalpa {
+    margin-top: 354px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .aboutkalapara {
+    text-align: center;
+  }
+
+  .about-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .left-section .updownanimation {
+    left: 49px;
+    display: none;
+    flex-wrap: wrap;
+  }
+
+  .whykalpa {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .aboutbackground {
+    height: 900px;
+}
+.ourinvest{
+  height: 1133px;
+}
+
+.formlist {
+  margin-left: 13px;
+}
+.contactimg {
+  display: none;
+}
+
+.formlist input, textarea {
+  width: 500px;
+}
+
+
+
+}
+
+@media screen and (max-width:508px){
+    header {
+        margin-bottom: -325px;
+      }
+      .aboutbackground {
+        height: 1117px;
+    }
+    .aboutKalpa .left-header {
+        margin-top: 160px;
+    }
+    .formlist input, textarea {
+      width: 310px;
+    }
+}
+
+
+
+@media screen and (max-width: 360px) {
+  header {
+    margin-bottom: -325px;
+  }
+  .header-section .left-header {
+    margin-top: 10px;
+  }
+  .left-header {
+    margin-right: 0px;
+  }
+  .left-header h2 {
+    font-size: 18px;
+  }
+  .right-header img {
+    width: 260px;
+  }
+  .aboutKalpa .right-header img {
+    margin-top: 40px;
+  }
+
+  .whykalapheading h2 {
+    font-size: 25px;
+  }
+  .heading h2 {
+    font-size: 25px;
+  }
+
+  .card .aavatechimg {
+    width: 258px;
+  }
+
+  .whykalpa .right-section img {
+    margin-left: 9px;
+  }
+  .whykalpa .right-section img {
+    width: 90%;
+    margin-left: 9px;
+  }
+
+  .aboutbackground {
+    height: 1230px;
+    font-size: 12px;
+  }
+  .header-section .left-header p{    
+    font-size: 14px;
+  }
+  .formlist input, textarea {
+    width: 305px;
+  }
+}

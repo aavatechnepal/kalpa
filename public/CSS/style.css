@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+:root{
+    --primary_ColorG : #34BA82;
+    --secondary_ColorB : #011A41;
+
+    
+
+}
+
+/* utilitites classes */
+
+/* #menu{
+    display: none;
+} */
+
+.menu{
+    display: none;
+}
+
+.container{
+    max-width: 1480px;
+    margin-inline: auto;
+    padding-inline : 20px;
+    overflow: hidden;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.main-nav{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navlinks{
+    flex-basis: 730px;
+}
+
+.navlinks ul{
+    justify-content: end;
+    gap: 40px;
+}
+
+
+.hover-link{
+  
+  color: var(--secondary_ColorB);
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.2s ease-in-out;
+}
+.hover-link:hover{
+    color: var(--primary_ColorG);
+  
+}
+
+.rightimg{
+    mix-blend-mode: multiply;
+}
+
+/* header section */
+
+header{
+    padding:50px;
+    /* background-image: url('../IMG/mainbanner.jpg'); */
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    /* margin-top: 55px; */
+    
+}
+
+.header-section{
+    justify-content: center;
+    gap: 40px;
+}
+.header-section .left-header{
+    margin-top: 100px;
+}
+.header-section .left-header p {
+    color: black;
+}
+
+.left-header h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.nepalitext{
+    color: var(--primary_ColorG);
+}
+.role{
+    color: var(--primary_ColorG);
+}
+
+.right-header img{
+    width: 600px;
+}
+
+
+.aboutKalpa{
+    justify-self: center;
+    align-items: center;
+}
+
+.left-header{
+    margin-right: 34px;
+}
+
+
+
+
+
+/* our objective section about section */
+
+.aboutbackground{
+    background-image: url('../IMG/background22.jpg');
+   height: 850px;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.about-section{
+    gap: 8rem;
+    margin-top: 10rem;
+    align-items: center;
+}
+.about-btn{
+    margin-top: 25px;
+}
+
+.insdeAbout{
+   /* line-height: 23px; */
+   margin-top: 2rem;
+   gap: 2rem;
+}
+
+.left-section{
+    display: flex;
+}
+
+/* for animation  */
+.left-section .updownanimation{
+    width: 188px;
+    height: 242px;
+    position: relative;
+    right: 44px;
+  top: 34px;
+}
+
+img.updownanimation {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.updownanimation{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+/* for end animation  */
+
+
+
+
+
+.right-section{
+    margin-top: 20px;
+
+}
+
+.right-section h1{
+    font-size: 2.5rem;
+    color: #231f40;
+}
+.right-section h3{
+    color: #231f40;
+}
+.right-section span{
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+.right-section p{
+    color: #8e93a5;
+}
+
+.btn{
+    margin-top: 30px;
+    padding: 12px 12px;
+    background-color: var(--primary_ColorG);
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+.btn:hover{
+    transition: 1s ease;
+    background-color: var(--secondary_ColorB);
+}
+
+/* why kalpabriskshay section  */
+
+.whykalpa{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+}
+.whykalpa .right-section{
+    /* background: url('../IMG/animated\ \(6\).gif'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.whykalapheading h2{
+    margin-top: 15px;
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: var(--primary_ColorG);
+}
+.whykalapheading h5{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.whykalapheading p{
+   color: black;
+}
+
+/* our investment section */
+
+.ourinvest{
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    /* max-width: 100%; */
+    background: url('../IMG/animatedBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.ourinvest a{
+    text-decoration: none;
+   
+}
+
+.ourinvest img:hover{
+    transition: 1s ease-in-out;
+
+}
+
+
+
+.card{
+    padding: 30px 30px;
+    border-radius: 9px;  
+    box-shadow: 0px 0px 0px 0px black;
+    border: 1px solid white;
+}
+.card:hover{
+    transition: 0.5s ease-in-out;
+    background-color: var(--primary_ColorG);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    border: none;
+}
+.card:hover h3{
+    color: var(--secondary_ColorB);
+}
+.investpara h3, p{
+    /* color: var(--secondary_ColorB); */
+    color: white;
+
+}
+.card .aavatechimg{
+    width: 343px;
+    border-radius: 9px;
+    flex-wrap: wrap;
+    
+}
+.heading{
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 2rem;
+    color: var(--primary_ColorG);
+}
+.investpara{
+    text-align: center;
+}
+
+
+/* contact us section */
+.contactheading{
+    margin-top: 85px;
+    font-size: 3rem;
+}
+
+.contactUs{
+    display: flex;    
+    margin-top: 34px;
+}
+
+
+.contactimg{
+    width: 35%;
+
+}
+
+.formlist{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-left: 34px;
+}
+.formlist p{
+    color: var(--primary_ColorG);
+    font-weight: 500;
+}
+
+.formlist input, textarea{
+    padding: 14px 22px;
+    outline: none;
+    width: 601px; 
+    border-radius: 4px;
+    border: 1px solid #34BA82;
+}
+.formlist input, textarea:focus{
+    color: var(--primary_ColorG);
+}
+
+.secondaryBtn{
+    font-weight: 500;
+}
+
+
+/* .formlist ::placeholder{
+    color: var(--primary_ColorG);
+    font-weight: bold;
+} */
+
+
+
+/* footer section */
+
+.footerSec{
+    margin-top: 134px; 
+    background-color: var(--primary_ColorG);
+    height: 343px;
+}
+
+
+/* .right-footer .navlinks ul{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-right: 495px;
+} */
+
+.right-footer .navlinks ul a{
+   color: white;
+}
+.right-footer .navlinks ul a:hover{
+   color:var(--secondary_ColorB);
+}
+
+
+
+
+
+
+
+
+
+.testing{
+    height: 300px;
+}
+
+
+
+
+
+

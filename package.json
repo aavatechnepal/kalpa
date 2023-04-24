@@ -1,0 +1,29 @@
+{
+  "name": "kalpabrikshya",
+  "version": "1.0.0",
+  "description": "kalpabrikshya holdings private limited ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js -e js,hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "suniel1921"
+  },
+  "keywords": [
+    "investment",
+    "company",
+    "finance",
+    "company"
+  ],
+  "author": "riskhi ram pokhrel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^7.0.4",
+    "nodemon": "^2.0.22"
+  }
+}

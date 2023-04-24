@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link -->
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/mediaQueries.css">
+ 
+    <title>Kalpabrikshya Holdings</title>
+</head>
+
+<body>
+    {{!-- navbar --}}
+    {{>navbar data = showData}}
+        
+
+
+    {{!-- header section --}}
+
+    <header>
+        <div class="container header-section flex">
+            <div class="left-header">
+                <p>{{headerData.paragraph1}}</p>
+                <p class="nepalitext">{{headerData.paragraph2}}</p>
+                <h2>{{headerData.leftheading}} <br> <span class="role"> </span> </h2>
+                <p class="paragraph">{{headerData.paragraph3}}</p>
+                
+            </div>
+            <div class="right-header">
+                <img class="rightimg" src="{{headerData.rightimg}}" alt="">
+
+            </div>
+
+        </div>
+    </header>
+
+    {{!-- <header>
+        <div class="container header-section flex">
+            <div class="left-header">
+                <p>Safe investments are our responsibility.</p>
+                <p class="nepalitext">सुरक्षित लगानी, हाम्रो जिम्मेवारी!</p>
+                <h2>Kalpabrikshya Will Give <br> <span class="role"> </span> </h2>
+                <p>Kalpabrikshya Holdings is an investment company based in Kathmandu, Nepal, focused
+                    on investing in early-stage technology startups. Founded in 2022, the company is known
+                    for its unique investment strategy and portfolio of innovative companies.
+                </p>
+            </div>
+            <div class="right-header">
+                <img class="rightimg" src="/IMG/rbg4.gif" alt="">
+            </div>
+
+        </div>
+    </header> --}}
+
+
+
+
+    {{!-- about Kalpabrikshya section --}}
+
+    <section>
+        {{!-- <h3 style="text-align: center;">About Kalpabrikshya</h3> --}}
+        <div class="aboutKalpa container flex">
+
+            <div class="right-header">
+                <img src="/IMG/animated (1).gif" alt="">
+
+            </div>
+
+            <div class="left-header">
+                <h3 class="heading">About Kalpabrikshya</h3>
+                <h5 class="aboutkalapara" >Kalpabrikshya Holdings Pvt. Ltd. was established in October 2022 with a focus on strengthening
+                    Nepalese enterprises, guided by core principles of integrity, innovation, collaboration,
+                    professionalism, transparency and accountability.
+                    Our vision is to be recognized as a trustworthy and all-round partner capable of ensuring maximum
+                    returns on your investments.
+                    Our mission is to transform into a listed public company in Nepal. </h5>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- about section -->
+
+    <div class="aboutbackground">
+
+
+        <section class=" container about-section flex">
+
+            <div class="left-section">
+                <img src="/IMG/aboutimg.jpg" alt="">
+                <img class="updownanimation" src="/IMG/updownimg.jpg" alt="">
+            </div>
+
+            <div class="right-section" data-aos="fade-up">
+                {{!-- <span>Our objectives</span> --}}
+                {{!-- <h1>We Offer The Best Guide</h1> --}}
+                <h1>Our Objectives</h1>
+
+
+                <div class="insdeAbout flex">
+                    <div class="aboutimg"> <img src="/IMG/asset 48.png" alt=""></div>
+                    <div class="aboutheading">
+                        <h3>Agriculture</h3>
+                        <p>We invest in agri-businesses to help them both in the short and long-term. We do this by
+                            purchasing shares in agri-businesses that produce agricultural goods as well as medicinal/
+                            herbal products. In addition to supporting pre-existing entities, Kalpabrikshya is also keen
+                            on commencing our own work in the agricultural sector.</p>
+                    </div>
+
+                </div>
+                <div class="insdeAbout flex">
+                    <div class="aboutimg"> <img src="/IMG/asset 50.png" alt=""></div>
+                    <div class="aboutheading">
+                        <h3>IT and Digitization</h3>
+                        <p>Kalpabrikshya’s investments in the IT and Digitization sector are done by applying our own
+                            marketing strategies as well as outsourcing work on marketing & consultancies.</p>
+                    </div>
+
+                </div>
+                <div class="insdeAbout flex">
+                    <div class="aboutimg"> <img src="/IMG/asset 49.png" alt=""></div>
+                    <div class="aboutheading">
+                        <h3>Tourism</h3>
+                        <p>At Kalpabrikshya, we know the value of investing in the travel & tourism sector of Nepal.
+                            We’re determined to put our country on the map as a leading destination for those looking to
+                            get away in the pristine Himalayas, explore vast tea gardens and immerse in the country’s
+                            unique cultures. We are keen to establish our own travel & tourism company, or invest in a
+                            partner with our shared vision.</p>
+                    </div>
+                </div>
+                <div class="insdeAbout flex">
+                    <div class="aboutimg"> <img src="/IMG/asset 49.png" alt=""></div>
+                    <div class="aboutheading">
+                        <h3>Secondary Markets</h3>
+                        <p>At Kalpabrikshya, we know the value of investing in the travel & tourism sector of Nepal.
+                            We’re determined to put our country on the map as a leading destination for those looking to
+                            get away in the pristine Himalayas, explore vast tea gardens and immerse in the country’s
+                            unique cultures. We are keen to establish our own travel & tourism company, or invest in a
+                            partner with our shared vision.</p>
+                    </div>
+                </div>
+                <div class="insdeAbout flex">
+                    <div class="aboutimg"> <img src="/IMG/asset 49.png" alt=""></div>
+                    <div class="aboutheading">
+                        <h3>Health</h3>
+                        <p>The Nepalese society can only truly flourish if our communities are healthy. That is why we
+                            invest in the health sector by establishing small-scale enterprises, working with doctors/
+                            physicians/ pharmaceutical companies, and engaging with large hospital-based establishments.
+                        </p>
+                    </div>
+                </div>
+
+                <button class="btn">Know About Us</button>
+
+        </section>
+
+    </div>
+
+
+    {{!-- why Kalpabrikshya section --}}
+
+    <section class="container whykalpa">
+        <div class="left-section">
+            <div class="whykalapheading">
+                <h2>Why Kalpabrikshya</h2>
+                <h5>What sets us apart at Kalpabrikshya is our unique approach to stable, <br> sound and sustainable
+                    investing.
+                </h5>
+                <p>Under each of our company’s objectives, and for every investment being considered, <br> we put
+                    research and
+                    development at the heart of what we do.
+                </p> <br>
+                <p>A designated person from our unique team of multi-sectorial experts leads each project,making careful
+                    <br>
+                    considerations along the way about how resources will be utilized for each purpose.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="right-section">
+            <img src="/IMG/about.png" alt="">
+        </div>
+
+
+    </section>
+
+    {{!-- our investments --}}
+    <div class="heading">
+        <h2>Our Investments</h2>
+    </div>
+
+    {{!-- <section class="container flex ourinvest"> --}}
+    <section class="flex ourinvest">
+
+        <a href="https://aavatechnepal.com/" target="_blank">
+
+            <div class="card">
+            <img class="aavatechimg" src="/IMG/aavatech.png" alt="">
+            <div class="investpara">
+                <h3>AavatechNepal</h3>
+                <p>Digital marketing agency</p>
+            </div>
+
+        </div>
+        </a>
+        
+        <div class="card">
+            <img class="aavatechimg" src="/IMG/SS logo.jpeg" alt="">
+            <div class="investpara">
+                <h3>Sathi Seeds</h3>
+                <p>Agricultural company</p>
+            </div>
+
+        </div>    
+    </section>
+
+
+
+    {{!-- contact us section --}}
+
+     <h2 class="heading contactheading">Contact Us</h2>
+    <section class="container contactUs">
+        <img class="contactimg" src="/IMG/contact.jpg" alt="">       
+        
+        <form action="/" class="formlist">
+        <p>Enter Your Name</p>
+        <input type="text" name="name" id="" autocomplete="off">
+         <p>Enter Your Email</p>
+        <input type="email" name="email" id=""  autocomplete="off">
+         <p>Enter Your Phone No.</p>
+        <input type="number" name="phone" id="" autocomplete="off">
+         <p>Your Message</p>
+        <textarea name="message" id="" cols="20" rows="5"  autocomplete="off"></textarea>
+        <button type="submit" class="btn secondaryBtn">Submit</button>
+        </form>
+
+    </section>
+
+
+
+    {{!-- foooter section  --}}
+
+    <footer class="footerSec ">
+        <div class="right-footer container">
+            <h2>Kalpabrikshya Holdings Pvt.Ltd</h2>
+               <nav>
+        <div class="container main-nav flex">           
+
+            <div class="navlinks">
+                <ul class="flex">
+                    <li><a href="#" class="hover-link">Home</a></li>
+                    <li><a href="#" class="hover-link">About</a></li>
+                    <li><a href="#" class="hover-link">Why Kalpabrikshya</a></li>
+                    <li><a href="#" class="hover-link">Our Investment</a></li>
+                    <li><a href="#" class="hover-link">Contact Us</a></li>
+                </ul>            
+            </div>
+            <a href="#" class="menu">  <i class="fa-solid fa-bars menubar"></i>  </a>
+             
+        </div>
+        </nav>
+        </div>
+
+    </footer>
+
+
+
+    <div class="testing"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {{!-- textanimation --}}
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Business Opportunity",
+                "Invest Planning",
+                "Financial Consultancy",
+                "Business Advisor",
+                "IT Services",
+            ],
+            loop: true,
+            typeSpeed: 70,
+            backDelay: 1000,
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>
