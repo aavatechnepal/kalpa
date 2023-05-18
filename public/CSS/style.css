@@ -9,10 +9,11 @@
 
 :root{
     --primary_ColorG : #34BA82;
-    --secondary_ColorB : #011A41;
+    --secondary_ColorB : #011A41;    
 
-    
-
+}
+.formlist .error{
+    color: red;
 }
 
 /* utilitites classes */
@@ -373,12 +374,12 @@ img.updownanimation{
 }
 
 
-/* .right-footer .navlinks ul{
+.right-footer .navlinks ul{
     display: flex;
     flex-direction: column;
     gap: 4px;
     margin-right: 495px;
-} */
+}
 
 .right-footer .navlinks ul a{
    color: white;
@@ -387,17 +388,10 @@ img.updownanimation{
    color:var(--secondary_ColorB);
 }
 
-
-
-
-
-
-
-
-
-.testing{
-    height: 300px;
+.footerheading{
+    color: white;
 }
+
 
 
 

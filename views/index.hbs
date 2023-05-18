@@ -231,7 +231,7 @@
     <section class="container contactUs">
         <img class="contactimg" src="/IMG/contact.jpg" alt="">       
         
-        <form action="/" class="formlist">
+        <form action="/contact" class="formlist" method="post">
         <p>Enter Your Name</p>
         <input type="text" name="name" id="" autocomplete="off">
          <p>Enter Your Email</p>
@@ -240,6 +240,7 @@
         <input type="number" name="phone" id="" autocomplete="off">
          <p>Your Message</p>
         <textarea name="message" id="" cols="20" rows="5"  autocomplete="off"></textarea>
+        <p class="error">{{message}}</p>
         <button type="submit" class="btn secondaryBtn">Submit</button>
         </form>
 
@@ -251,7 +252,7 @@
 
     <footer class="footerSec ">
         <div class="right-footer container">
-            <h2>Kalpabrikshya Holdings Pvt.Ltd</h2>
+            <h2 class="heading footerheading">Kalpabrikshya Holdings Pvt.Ltd</h2>
                <nav>
         <div class="container main-nav flex">           
 
@@ -274,7 +275,6 @@
 
 
 
-    <div class="testing"></div>
 
 
 

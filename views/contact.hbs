@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="/CSS/style.css">
+<link rel="stylesheet" href="/CSS/mediaQueries.css">
+
+{{>navbar data = showData}}
+
+
+
+{{!-- contact page for redering navigation bar  --}}
+
+  <nav>
+        <div class="container main-nav flex">
+            <a href="#" class="logo"><img src="/IMG/kalpalogo.png" alt=""></a>
+            
+
+            <div class="navlinks">
+                <ul class="flex">
+
+                    <li><a href="/" class="hover-link">Home</a></li>
+                    <li><a href="#" class="hover-link">About</a></li>
+                    <li><a href="#" class="hover-link">Why Kalpabrikshya</a></li>
+                    <li><a href="#" class="hover-link">Our Investment</a></li>
+                    <li><a href="#" class="hover-link">Contact Us</a></li>
+
+                </ul>            
+
+            </div>
+
+            <a href="#" class="menu">  <i class="fa-solid fa-bars menubar"></i>  </a>
+             
+        </div>
+        </nav>
+
+
+
+
+
+
+<h2 class="heading contactheading">Contact Us</h2>
+    <section class="container contactUs">
+        <img class="contactimg" src="/IMG/contact.jpg" alt="">       
+        
+        <form action="/contact" class="formlist" method="post">
+        <p>Enter Your Name</p>
+        <input type="text" name="name" id="" autocomplete="off">
+         <p>Enter Your Email</p>
+        <input type="email" name="email" id=""  autocomplete="off">
+         <p>Enter Your Phone No.</p>
+        <input type="number" name="phone" id="" autocomplete="off">
+         <p>Your Message</p>
+        <textarea name="message" id="" cols="20" rows="5"  autocomplete="off"></textarea>
+        <p class="message">{{message}}</p>
+        <p class="error">{{errors}}</p>
+        <button type="submit" class="btn secondaryBtn">Submit</button>
+        </form>
+
+    </section>
